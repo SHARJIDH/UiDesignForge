@@ -1,0 +1,18 @@
+import { EllipseShape } from "@/types/canvas";
+
+export const Ellipse = ({ shape }: { shape: EllipseShape }) => (
+  <div
+    className="absolute pointer-events-none"
+    style={{
+      left: shape.x,
+      top: shape.y,
+      width: shape.w,
+      height: shape.h,
+      borderColor: shape.stroke,
+      borderWidth: shape.strokeWidth,
+      borderStyle: shape.strokeType === "dashed" ? "dashed" : "solid",
+      backgroundColor: shape.fill ?? "transparent",
+      borderRadius: "50%",
+    }}
+  />
+);
