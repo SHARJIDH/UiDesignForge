@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>AI-Powered Design-to-Code Platform</strong>
+  <strong>AI-Powered Design-to-Code Platform</strong> 
 </p>
 
 <p align="center">
@@ -881,5 +881,6 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ---
 
 # UIForge
-#   U i D e s i g n F o r g e  
+#   U i D e s i g n F o r g e 
+ 
  
